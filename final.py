@@ -91,3 +91,6 @@ print("El total de clientes de la caja 2 fue: ", contador_caja2)
 print("El total de clientes de la caja 3 fue: ", contador_caja3)
 print("El total de clientes de la caja 4 fue: ", contador_caja4)
 
+#Se colocan los contadores en una matriz para poner el contador mas grande
+contadores = [contador_caja1, contador_caja2,contador_caja3,contador_caja4]
+print("Lla caja con más clientes tuvo ", max(contadores))
